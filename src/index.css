@@ -139,3 +139,22 @@
   transform: scale(1.03);
   box-shadow: 0 12px 40px hsl(340 60% 55% / 0.25);
 }
+
+/* Heart explosion */
+@keyframes heart-explode {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(0.5) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-40vh) scale(1.2) rotate(20deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-80vh) scale(0.3) rotate(-30deg);
+  }
+}
+.animate-heart-explode {
+  animation: heart-explode 2.5s ease-out forwards;
+}

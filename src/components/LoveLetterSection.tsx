@@ -15,39 +15,56 @@ const LoveLetterSection = () => {
           style={{ background: "hsl(40 40% 92%)", border: "1px solid hsl(40 30% 85%)" }}
         >
           <div className="font-display italic text-foreground/90 leading-relaxed space-y-5 text-base sm:text-lg">
-            <p>My Dearest Nissy,</p>
+            <p>Nissy,</p>
 
             <p>
-              There are not enough words in any language to express what you mean to me.
-              You came into my life like the gentle waves of Vizag — softly, beautifully, and before I knew it,
-              you had filled every corner of my heart.
+              I don't really know how to write letters. I'm not good with words, you know that.
+              But today I wanted to try. Because you deserve to hear these things. Not from some
+              poem I found online. From me. Just me.
             </p>
 
             <p>
-              When the world felt heavy and loneliness was all I knew, you stood beside me with a strength
-              I didn't deserve but desperately needed. You believed in me when I had lost all belief in myself.
-              You stayed when everyone else walked away.
+              I think about the day we met and I still can't believe you're real sometimes.
+              Like, how did I get so lucky? A boy from Vizag who didn't have much going for him,
+              and then you showed up and everything changed.
             </p>
 
             <p>
-              I am grateful for every ride along the coast, every meal we shared, every laugh that echoed louder
-              than the ocean. You are my peace when the world is chaos. You are my happiness in the mundane.
-              You are my strength when I feel like giving up.
+              You didn't just come into my life, Nissy. You saved parts of me I thought were gone forever.
+              When I was at my lowest, when I felt like nobody cared — you cared. You showed up.
+              You held my hand and told me it's going to be okay. And somehow, when you said it, I believed it.
             </p>
 
             <p>
-              I know our paths carry the weight of different worlds, and the future may not always be clear.
-              But this I promise you — my love, my gratitude, and my respect for you will never waver.
-              No matter where life takes us, you will always have a permanent place in my heart.
+              I'm not perfect. I mess up. I get angry. I say stupid things sometimes. But you stay.
+              You always stay. And I don't think you know how much that means to me.
+              It means everything.
             </p>
 
             <p>
-              Thank you for being you. Thank you for choosing to love me. Thank you for making my life
-              infinitely more beautiful.
+              Every ride along the coast, every meal we shared, every time you laughed at something dumb I said —
+              those are the best moments of my life. Not some big achievement or milestone. Just you. Sitting next to me.
+              That's enough. That's always been enough.
+            </p>
+
+            <p>
+              I know our situation is complicated. I know we come from different worlds.
+              I don't know what the future looks like. But I know this —
+              no matter what happens, no matter where life takes us,
+              you will always have a place in my heart that nobody else can ever fill.
+            </p>
+
+            <p>
+              Thank you for loving me the way you do. Thank you for being patient with me.
+              Thank you for making my life so much better just by being in it.
+            </p>
+
+            <p>
+              I love you, Nissy. Not because I have to. Because I can't imagine not loving you.
             </p>
 
             <p className="mt-8 font-cursive text-2xl sm:text-3xl text-primary">
-              Forever yours,<br />Sriram 💕
+              Forever yours,<br />Sriram ❤️
             </p>
           </div>
         </div>

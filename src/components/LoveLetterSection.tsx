@@ -36,8 +36,9 @@ const LoveLetterSection = () => {
             </p>
 
             <p>
-              I'm not perfect. I mess up. I get angry. I say stupid things sometimes. But you stay.
-              You always stay. And I don't think you know how much that means to me.
+              I’m not perfect, Bujji.
+I get irritated. I overthink. I react before I think sometimes.
+But you stay. You always stay. And I don't think you know how much that means to me.
               It means everything.
             </p>
 

@@ -8,71 +8,157 @@ const OurStorySection = () => {
   return (
     <section className="py-20 md:py-28 px-6 bg-secondary/50" id="our-story">
       <div className="max-w-5xl mx-auto" ref={ref}>
-        <h2 className={`font-cursive text-4xl sm:text-5xl md:text-6xl text-center text-primary mb-16 ${visible ? "animate-fade-up" : "opacity-0"}`}>
+        <h2
+          className={`font-cursive text-4xl sm:text-5xl md:text-6xl text-center text-primary mb-16 ${
+            visible ? "animate-fade-up" : "opacity-0"
+          }`}
+        >
           Our Story
         </h2>
 
-        {/* Story as flowing narrative with interspersed photos */}
         <div className="space-y-12">
-          <div className={`grid md:grid-cols-2 gap-10 items-center ${visible ? "animate-fade-up-delay-1" : "opacity-0"}`}>
+          {/* Beginning */}
+          <div
+            className={`grid md:grid-cols-2 gap-10 items-center ${
+              visible ? "animate-fade-up-delay-1" : "opacity-0"
+            }`}
+          >
             <div className="font-display text-foreground/90 leading-relaxed space-y-4 text-base sm:text-lg">
-              <p className="text-2xl font-cursive text-primary mb-2">🌊 Where It All Began</p>
-              <p>
-                It started in Vizag. I still remember the first time I saw you — something about you just felt different.
-                Not the kind of different you notice and forget. The kind that stays. The kind that changes everything.
+              <p className="text-2xl font-cursive text-primary mb-2">
+                🌊 The Unexpected Beginning
               </p>
+
               <p>
-                The beach was where we found ourselves. The waves crashing, the salty wind blowing through your hair,
-                and me — just trying to keep up with how fast my heart was beating around you. We'd walk for hours,
-                talking about nothing and everything. Those walks were the beginning of us.
+                We didn’t begin like a fairytale. You were my friend’s
+                girlfriend’s friend. We used to text sometimes… tease each other…
+                laugh over silly things. It was casual. Light. Effortless.
+              </p>
+
+              <p>
+                Then life moved on. We stopped talking. Years passed quietly.
+                I didn’t know that Vizag would bring you back into my life.
+              </p>
+
+              <p>
+                One random day, I saw you again — standing there with your friend.
+                And in that moment, something inside me shifted. It felt like
+                the universe had paused just long enough to give us another chance.
               </p>
             </div>
-            <img src={storyImg} alt="Sriram and Nissy at Vizag beach" className="rounded-2xl shadow-xl w-full object-cover max-h-[450px] photo-hover" />
+
+            <img
+              src={storyImg}
+              alt="Sriram and Nissy at Vizag beach"
+              className="rounded-2xl shadow-xl w-full object-cover max-h-[450px] photo-hover"
+            />
           </div>
 
-          <div className={`grid md:grid-cols-2 gap-10 items-center ${visible ? "animate-fade-up-delay-2" : "opacity-0"}`}>
-            <img src={storyImg2} alt="Sriram and Nissy by the rocks" className="rounded-2xl shadow-xl w-full object-cover max-h-[450px] photo-hover md:order-1 order-2" />
+          {/* Beach Night */}
+          <div
+            className={`grid md:grid-cols-2 gap-10 items-center ${
+              visible ? "animate-fade-up-delay-2" : "opacity-0"
+            }`}
+          >
+            <img
+              src={storyImg2}
+              alt="Sriram and Nissy by the rocks"
+              className="rounded-2xl shadow-xl w-full object-cover max-h-[450px] photo-hover md:order-1 order-2"
+            />
+
             <div className="font-display text-foreground/90 leading-relaxed space-y-4 text-base sm:text-lg md:order-2 order-1">
-              <p className="text-2xl font-cursive text-primary mb-2">🏍️ Rides, Food & Dreams</p>
-              <p>
-                Then came the rides. Kilometers and kilometers along the coast, the wind in our faces,
-                your arms around me, and laughter louder than the ocean. Those rides were freedom.
-                Those rides were us at our happiest.
+              <p className="text-2xl font-cursive text-primary mb-2">
+                🌙 The Night That Changed Everything
               </p>
+
               <p>
-                And the food, Nissy — every meal with you became a memory. From street food stalls to small
-                restaurants we'd discover together, every bite tasted better because you were there. We'd eat,
-                we'd laugh, we'd dream about all the places we'd go and all the food we'd try.
+                A few days later, we went to the beach one night. The waves were
+                loud. The air was calm. And somehow, it felt like the world had
+                disappeared, leaving just you and me.
+              </p>
+
+              <p>
+                We stood close. We talked softly. And then we kissed.
+                It wasn’t planned. It wasn’t dramatic.
+                It just felt right.
+              </p>
+
+              <p>
+                That night, you looked at me with those emotional eyes and said
+                what my heart was already feeling. You proposed to me.
+                I still remember how you said it, Bujji… with so much honesty,
+                so much courage.
+              </p>
+
+              <p>
+                After a few days, I accepted. And seeing how emotional you were,
+                how deeply you felt it — that moment became one of the best
+                feelings of my life.
               </p>
             </div>
           </div>
 
-          <div className={`max-w-3xl mx-auto font-display text-foreground/90 leading-relaxed space-y-4 text-base sm:text-lg ${visible ? "animate-fade-up-delay-3" : "opacity-0"}`}>
-            <p className="text-2xl font-cursive text-primary mb-2 text-center">💪 You Stayed When Nobody Else Did</p>
-            <p>
-              But life wasn't always beach rides and sunsets. There were days when everything felt heavy.
-              Days when I didn't believe in myself. Days when the world felt empty and I had nobody to turn to.
-            </p>
-            <p>
-              And that's when you showed me who you really are. You didn't just stay — you held me up.
-              You believed in me when I had lost all belief in myself. You stayed when everyone else walked away.
-              You fought for us when I was too tired to fight for anything.
-            </p>
-            <p>
-              Because of you, I learned what real love means. Not the kind you see in movies. The kind that shows up
-              at 2 AM when you're crying. The kind that says "I'm not going anywhere" and actually means it.
-              That's you, Nissy. That's always been you.
+          {/* Journey */}
+          <div
+            className={`max-w-3xl mx-auto font-display text-foreground/90 leading-relaxed space-y-4 text-base sm:text-lg ${
+              visible ? "animate-fade-up-delay-3" : "opacity-0"
+            }`}
+          >
+            <p className="text-2xl font-cursive text-primary mb-2 text-center">
+              🏍️ Our Journey — Beautiful & Difficult
             </p>
 
-            <p className="text-2xl font-cursive text-primary mb-2 text-center pt-4">💕 Growing Stronger Every Day</p>
             <p>
-              Every challenge we've faced has made us closer. Every argument taught us patience. Every hard day
-              reminded us why we choose each other. And I'd choose you again, Nissy. Every single time.
+              From that night, everything became real. Beach rides, endless
+              laughter, random food stops, dreams about places we would go.
+              Every “Bujji” you called me felt like a world that belonged only
+              to us.
             </p>
+
             <p>
-              I know our paths carry the weight of different worlds. I know the future isn't always clear.
-              But what I know for sure is this — my love for you is as long as the ocean in Vizag and as
-              beautiful as its sunsets. And it's not going anywhere.
+              But our story wasn’t only sunsets and smiles. There were hurdles.
+              Questions at home. Pressure from different directions.
+              Moments that tested us.
+            </p>
+
+            <p>
+              Yet through everything, we didn’t part ways.
+              We stayed. We chose patience. We chose understanding.
+              We chose each other.
+            </p>
+
+            <p className="text-2xl font-cursive text-primary mb-2 text-center pt-4">
+              🌅 No Matter What Tomorrow Holds
+            </p>
+
+            <p>
+              Bujji, I don’t know what the future has written for us.
+              Life is complicated. Our paths may not always align.
+              And maybe destiny won’t let us stay side by side forever.
+            </p>
+
+            <p>
+              But one thing will never change —
+              you will always have a place in my heart.
+            </p>
+
+            <p>
+              You are not just a chapter I can close.
+              You are a part of my growth. A part of my strength.
+              A part of the man I am becoming.
+            </p>
+
+            <p>
+              And if someday, whenever you need me —
+              in happiness, in confusion, in silence, in pain —
+              I will be there.
+              Not because I have to.
+              But because loving you changed me.
+            </p>
+
+            <p>
+              No matter what life decides,
+              Vizag will always remind me of the day
+              my heart chose you.
             </p>
           </div>
         </div>

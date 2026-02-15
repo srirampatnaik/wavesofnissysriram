@@ -24,7 +24,7 @@ const reasons = [
   "Because you are my peace after every storm",
   "Because loving you feels real, not dramatic",
   "Because you are part of my strength now",
-  "Because no matter what happens, you will always have a place in my heart",
+  "Because you are my favorite person in this entire world",
 ];
 
 
